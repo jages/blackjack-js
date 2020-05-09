@@ -1,0 +1,55 @@
+body {
+    background-color: #06623b;
+}
+.dealer-area{
+    display: flex;
+    height: 200px;
+
+}
+div{
+    display: inline;
+}
+.dealer-area {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.player-area {
+    margin-left: 195px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    margin: 25px;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 140px;
+    height: 200px;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+.card-icon {
+    font-size: 5rem;
+}
+
+.black {
+    color: #000000;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.card-stack{
+    margin: 25px;
+}
+
+.cardback{
+    height: 200px;
+    width: 140px;
+}
+
+.instruction {
+    display: block;
+}

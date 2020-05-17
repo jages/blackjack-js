@@ -1,23 +1,36 @@
 body {
     background-color: #06623b;
 }
-.dealer-area{
-    display: flex;
-    height: 200px;
 
-}
 div{
     display: inline;
 }
-.dealer-area {
+
+.dealer-area{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    display: block;
 }
 
 .player-area {
     margin-left: 195px;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    display: block;
+}
+.dealer-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.player-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
 }
 
 .card {
@@ -41,9 +54,6 @@ div{
     color: #ff0000;
 }
 
-.card-stack{
-    margin: 25px;
-}
 
 .cardback{
     height: 200px;
